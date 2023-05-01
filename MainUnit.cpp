@@ -551,7 +551,7 @@ if(MFlags & ecStay)
           if(CurrSize > LastSize)
            {
             LastSize = CurrSize;
-            OUTMSG("Received %08X bytes",rarr.Size());
+            OUTMSG("Received %08X bytes",CurrSize);
            }
          }
      }
